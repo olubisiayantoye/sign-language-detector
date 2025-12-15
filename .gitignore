@@ -1,0 +1,64 @@
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =============================
+# Virtual Environment
+# =============================
+venv/
+.env/
+
+# =============================
+# IDE / Editor files
+# =============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================
+# OS files
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Project specific
+# =============================
+# Raw collected data (can be large)
+data/raw/
+
+# Trained model files
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+
+# =============================
+# Jupyter
+# =============================
+.ipynb_checkpoints/
+
+# =============================
+# Media / outputs
+# =============================
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+
+# =============================
+# Misc
+# =============================
+.cache/
